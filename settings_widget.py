@@ -26,7 +26,7 @@ from PySide6.QtWidgets import (
     QColorDialog,
 )
 
-from plugins.chat_ui_theme.i18n import tr
+from plugins.chat_ui_customize.i18n import tr
 from sdk.plugin_host_context import PluginSettingsUIContext
 from ui.chat_ui.chat_ui import ChatUIWindow
 from ui.chat_ui.theme_chrome import (
