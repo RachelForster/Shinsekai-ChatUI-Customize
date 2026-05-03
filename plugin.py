@@ -7,8 +7,8 @@ from sdk.plugin_host_context import PluginHostContext
 from sdk.register import PluginCapabilityRegistry
 from sdk.types import SettingsUIContribution
 
-from plugins.chat_ui_theme.i18n import tr
-from plugins.chat_ui_theme.settings_widget import build_chat_ui_theme_settings
+from plugins.chat_ui_customize.i18n import tr
+from plugins.chat_ui_customize.settings_widget import build_chat_ui_theme_settings
 
 
 class ChatUiThemePlugin(PluginBase):
@@ -16,7 +16,7 @@ class ChatUiThemePlugin(PluginBase):
 
     @property
     def plugin_id(self) -> str:
-        return "com.shinsekai.chat_ui_theme"
+        return "com.shinsekai.chat_ui_customize"
 
     @property
     def plugin_version(self) -> str:
