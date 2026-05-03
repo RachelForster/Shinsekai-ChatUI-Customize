@@ -35,7 +35,7 @@ from ui.chat_ui.theme_chrome import (
     set_chat_chrome_theme_preview_path,
 )
 
-from plugins.chat_ui_theme.theme_builder import build_theme_dict
+from plugins.chat_ui_customize.theme_builder import build_theme_dict
 
 
 def _default_theme_path() -> Path:
